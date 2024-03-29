@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Creating directories ..."
 mkdir /data
-chown user:user /data
+chown azadmin:azadmin /data
 mkdir /appdata
-chown user:user /appdata
+chown azadmin:azadmin /appdata
