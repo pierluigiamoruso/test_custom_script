@@ -1,7 +1,6 @@
-#!bin/bash
-
-echo /etc/fstab 
-
-cd /home
-
-mkdir test_TicketSogei#69206
+#!/bin/sh
+echo "Creating directories ..."
+mkdir /data
+chown user:user /data
+mkdir /appdata
+chown user:user /appdata
